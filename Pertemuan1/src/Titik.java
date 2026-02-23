@@ -1,3 +1,9 @@
+/*  NAMA FILE   : Titik.java
+    DESKRIPSI   : berisi atribut dan method dalam class Titik
+    PEMBUAT     : Romualdus Yoas Wicaksono
+    TANGGAL     : 19/02/2026
+ */
+
 public class Titik {
     // Atribut
     double absis;
