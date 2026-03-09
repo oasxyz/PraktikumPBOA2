@@ -1,3 +1,10 @@
+/*  NAMA FILE   : Dosen.java
+    DESKRIPSI   : berisi class atribut dan method dalam class Dosen
+    PEMBUAT     : Romualdus Yoas Wicaksono
+    NIM         : 24060124120046
+    TANGGAL     : 02/03/2026
+ */
+
 public class Dosen {
   //ATRIBUT
   private String nip;

@@ -1,3 +1,10 @@
+/*  NAMA FILE   : Mahasiswa.java
+    DESKRIPSI   : berisi class atribut dan method dalam class Mahasiswa
+    PEMBUAT     : Romualdus Yoas Wicaksono
+    NIM         : 24060124120046
+    TANGGAL     : 02/03/2026
+ */
+
 import java.util.ArrayList;
 
 public class Mahasiswa {

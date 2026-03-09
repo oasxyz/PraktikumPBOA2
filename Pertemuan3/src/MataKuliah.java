@@ -1,3 +1,10 @@
+/*  NAMA FILE   : MataKuliah.java
+    DESKRIPSI   : berisi class atribut dan method dalam class MataKuliah 
+    PEMBUAT     : Romualdus Yoas Wicaksono
+    NIM         : 24060124120046
+    TANGGAL     : 02/03/2026
+ */
+
 public class MataKuliah {
   //ATRIBUT
   private String idMatkul;

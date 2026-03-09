@@ -1,3 +1,10 @@
+/*  NAMA FILE   : MClass.java
+    DESKRIPSI   : berisi Main class keseluruhan
+    PEMBUAT     : Romualdus Yoas Wicaksono
+    NIM         : 24060124120046
+    TANGGAL     : 02/03/2026
+ */
+
 public class MClass {
   public static void main(String[] args) {
     System.out.println("=== INISIALISASI KENDARAAN ===");
