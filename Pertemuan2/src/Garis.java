@@ -10,6 +10,7 @@ public class Garis {
   private Titik titikAkhir;
   private static int counterGaris = 0;
 
+  //METHOD
   // Konstruktor default
   public Garis(){
     this.titikAwal = new Titik(0,0);

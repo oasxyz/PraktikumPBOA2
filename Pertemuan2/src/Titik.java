@@ -10,6 +10,7 @@ public class Titik {
     double ordinat;
     static int counterTitik = 0;
 
+    //METHOD
     // Konstruktor
     Titik() {
         absis = 0;
@@ -23,18 +24,8 @@ public class Titik {
         counterTitik++;
     }
 
-    static int getcounterTitik() {
-        return counterTitik;
-    }
 
-    double getAbsis() {
-        return absis;
-    }
-
-    double getOrdinat() {
-        return ordinat;
-    }
-
+    //MUTATOR
     void setAbsis(double x) {
         absis = x;
     }
@@ -46,6 +37,28 @@ public class Titik {
     void geser(double x, double y) {
         absis = absis + x;
         ordinat = ordinat + y;
+    }
+
+    void refleksiX() {
+        this.ordinat = this.ordinat * -1;
+    }
+
+    void refleksiY() {
+        this.absis = this.absis * -1;
+    }
+
+
+    //SELEKTOR
+    static int getcounterTitik() {
+        return counterTitik;
+    }
+
+    double getAbsis() {
+        return absis;
+    }
+
+    double getOrdinat() {
+        return ordinat;
     }
 
     int getKuadran() {
@@ -61,15 +74,7 @@ public class Titik {
             return 0;
         }
     }
-
-    void refleksiX() {
-        this.ordinat = this.ordinat * -1;
-    }
-
-    void refleksiY() {
-        this.absis = this.absis * -1;
-    }
-
+    
     Titik getRefleksiX() {
         return new Titik(absis, -ordinat);
     }
@@ -89,6 +94,8 @@ public class Titik {
         return Math.sqrt((dAbsis * dAbsis) + (dOrdinat * dOrdinat));
     }
 
+
+    //PRINT
     void printTitik() {
         System.out.println("Titik(" + absis + ", " + ordinat + ")");
     }
