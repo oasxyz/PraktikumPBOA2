@@ -17,7 +17,6 @@ public class Mahasiswa {
     private Kendaraan kendaraan;
 
     /* METHOD */
-
     /* KONSTRUKTOR */
     public Mahasiswa() {
         this.listMatKul = new ArrayList<>(); //inisialisasi list mata kuliah kosong
@@ -29,6 +28,7 @@ public class Mahasiswa {
         this.prodi = prodi;
         this.listMatKul = new ArrayList<>(); 
     }
+    
 
     /* SELEKTOR */
     public String getNim(){

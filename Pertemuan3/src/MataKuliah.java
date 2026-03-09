@@ -12,7 +12,6 @@ public class MataKuliah {
   private int sks;
 
   //METHOD
-
   //KONSTRUKTOR
   public MataKuliah(){
     this.idMatkul = "";
@@ -25,6 +24,7 @@ public class MataKuliah {
     this.namaMatkul = namaMatkul;
     this.sks = sks;
   }
+
 
   //SELECTOR
   public String getidMatkul(){
@@ -39,6 +39,7 @@ public class MataKuliah {
     return sks;
   }
 
+
   //MUTATOR
   public void setidMatkul(String idMatkul){
     this.idMatkul = idMatkul;
@@ -52,6 +53,7 @@ public class MataKuliah {
     this.sks = sks;
   }
 
+  
   //PRINT
   public void printMatkul(){
     System.out.println("ID Matkul: " + idMatkul);

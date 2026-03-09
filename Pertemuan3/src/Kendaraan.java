@@ -11,7 +11,6 @@ public class Kendaraan {
   private String jenisKendaraan;
   
   //METHOD
-
   //KONSTRUKTOR
   public Kendaraan(){
     this.noPlat = "";
@@ -23,6 +22,7 @@ public class Kendaraan {
     this.jenisKendaraan = jenisKendaraan;
   }
 
+
   //SELEKTOR
   public String getnoPlat(){
     return noPlat;
@@ -31,6 +31,7 @@ public class Kendaraan {
   public String getjenisKendaraan(){
     return jenisKendaraan;
   }
+
 
   //MUTATOR
   public void setnoPlat(String noPlat){
@@ -46,6 +47,4 @@ public class Kendaraan {
     System.out.println("No Plat: " + noPlat);
     System.out.println("Jenis Kendaraan: " + jenisKendaraan);
   }
-
-  
 }
