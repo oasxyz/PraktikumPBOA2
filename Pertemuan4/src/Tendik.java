@@ -1,3 +1,10 @@
+/*  NAMA FILE   : Tendik.java
+    DESKRIPSI   : berisi atribut dan method dari class Tendik
+    PEMBUAT     : Romualdus Yoas Wicaksono
+    NIM         : 24060124120046
+    TANGGAL     : 12/03/2026
+*/
+
 import java.time.LocalDate;
 import java.time.Period;
 

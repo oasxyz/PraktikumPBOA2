@@ -3,7 +3,7 @@
     PEMBUAT     : Romualdus Yoas Wicaksono
     NIM         : 24060124120046
     TANGGAL     : 09/03/2026
- */
+*/
 
 public class BangunDatar {
     //ATRIBUT

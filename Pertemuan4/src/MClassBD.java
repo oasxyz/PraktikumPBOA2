@@ -1,11 +1,11 @@
-/*  NAMA FILE   : Lingkaran.java
-    DESKRIPSI   : berisi class atribut dan method dalam class Lingkaran
+/*  NAMA FILE   : MClass.java
+    DESKRIPSI   : berisi Main class dari class BangunDatar, Persegi dan Lingkaran
     PEMBUAT     : Romualdus Yoas Wicaksono
     NIM         : 24060124120046
     TANGGAL     : 09/03/2026
- */
+*/
 
-public class MClass {
+public class MClassBD {
   public static void main(String[] args) {
     Persegi P1 = new Persegi(4, "HITAM", "NONE");
     Lingkaran L1 = new Lingkaran(8, "PUTIH", "NONE");
@@ -14,6 +14,7 @@ public class MClass {
     System.out.println("Luas: " + P1.getLuas());
     System.out.println("Keliling: " + P1.getKeliling());
     System.out.println("Diagonal: " + P1.getDiagonal());
+    System.out.println();
     L1.printInfo();
     System.out.println("Luas: " + L1.getLuas());
     System.out.println("Keliling: " + L1.getKeliling());
