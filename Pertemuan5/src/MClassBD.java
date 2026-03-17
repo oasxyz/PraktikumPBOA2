@@ -1,4 +1,4 @@
-/*  NAMA FILE   : MClass.java
+/*  NAMA FILE   : MClassBD.java
     DESKRIPSI   : berisi Main class dari class BangunDatar, Persegi dan Lingkaran
     PEMBUAT     : Romualdus Yoas Wicaksono
     NIM         : 24060124120046

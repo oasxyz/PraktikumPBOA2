@@ -1,5 +1,5 @@
-/*  NAMA FILE   : Manusia.java
-    DESKRIPSI   : berisi class atribut dan method dalam abstract class Manusia
+/*  NAMA FILE   : MManusia.java
+    DESKRIPSI   : berisi main class dari Manusia dengan mengimplementasikan interface ke PNS, Pengusaha, dan Petani
     PEMBUAT     : Romualdus Yoas Wicaksono
     NIM         : 24060124120046
     TANGGAL     : 17/03/2026
